@@ -5,27 +5,27 @@
 
     <TextView
         android:id="@+id/milk_tea_name"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="10dp"
-        />
+        android:textSize="30dp"/>
 
     <TextView
         android:id="@+id/milk_tea_size"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="10dp"
-        />
+        android:textSize="30dp"/>
 
     <TextView
         android:id="@+id/milk_tea_sweetness"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="10dp"
-        />
-
+        android:gravity="right"
+        android:textSize="30dp"/>
 
 </LinearLayout>

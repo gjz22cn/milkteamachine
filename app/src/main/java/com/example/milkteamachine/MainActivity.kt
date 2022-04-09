@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private val milkTeaList: MutableList<MilkTea> = ArrayList<MilkTea>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+        window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(R.layout.activity_main)
 
         // 配方设置按钮
